@@ -1,4 +1,4 @@
-Calculator Project
+# Calculator Project
 
 This calculator project is designed to provide users with a versatile tool for performing various mathematical calculations. It supports all basic arithmetic operations including addition, subtraction, multiplication, and division. Additionally, it offers advanced functionalities such as percentage calculation, modulus operation, square root, and square of a number.
 
