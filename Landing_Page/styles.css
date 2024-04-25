@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* header img{
+    width: 80px;
+    height: 80px;
+    
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ffcc00;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 95px;
+    /* margin-bottom: 20px; */
+}
+
+.hero p {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero span {
+    font-weight: bold;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #555;
+}
+
+.about,
+.courses,
+.testimonials,
+.contact {
+    padding: 80px 0;
+}
+
+.about h2,
+.courses h2,
+.testimonials h2,
+.contact h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about p,
+.courses p,
+.testimonials p,
+.contact p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 40px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    color: #ffcc00;
+}
